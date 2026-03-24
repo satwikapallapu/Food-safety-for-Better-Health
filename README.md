@@ -203,7 +203,7 @@ It highlights the integration of multiple models, efficient data handling using 
 
 <h2>👩‍💻 Author</h2>
 
-<p><b>Pallapu SAthwika </b><br>
+<p><b>Pallapu Sathwika </b><br>
 AI & ML Intern</p>
 
 
