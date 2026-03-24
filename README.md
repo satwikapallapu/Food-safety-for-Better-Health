@@ -139,7 +139,7 @@ Food-Safety-App/
 │
 ├── static/
 │   ├── uploads/
-│   └── sathwika.jpg
+│   └── img.jpg
 │
 ├── templates/
 │   └── index.html
@@ -170,14 +170,6 @@ Health Status  : Doctor Recommended
 
 <hr>
 
-<h2>▶️ How to Run</h2>
-
-<pre>
-git clone https://github.com/your-username/food-safety-app.git
-cd food-safety-app
-pip install -r requirements.txt
-python app.py
-</pre>
 
 <p>Make sure Redis is running at: <b>localhost:6379</b></p>
 
@@ -205,9 +197,9 @@ python app.py
 
 <h2>🏁 Conclusion</h2>
 <p>
-This project demonstrates the real-world application of Deep Learning in food and health analysis.
-By combining image classification, nutrition tracking, and intelligent recommendations,
-it provides a complete AI-driven solution for better dietary decisions.
+This project demonstrates the practical application of Deep Learning in solving real-world problems related to food and health. By combining image classification, nutritional analysis, and intelligent recommendations, the system provides a complete AI-driven solution for smarter dietary decisions.
+
+It highlights the integration of multiple models, efficient data handling using Redis, and deployment through a user-friendly web interface. Overall, this project strengthened my skills in Machine Learning, Deep Learning, model deployment, and full-stack development.
 </p>
 
 <hr>
