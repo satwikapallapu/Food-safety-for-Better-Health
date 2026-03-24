@@ -170,9 +170,6 @@ Health Status  : Doctor Recommended
 
 <hr>
 
-
-<p>Make sure Redis is running at: <b>localhost:6379</b></p>
-
 <hr>
 
 <h2>🌟 Key Highlights</h2>
