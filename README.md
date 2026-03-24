@@ -1,6 +1,6 @@
 <h1 align="left">🥗 Food Safety for Better Health</h1>
 
-<p align="center">
+<p align="left">
 An AI-powered web application that classifies food images, provides nutritional insights, and gives health recommendations using Deep Learning.
 </p>
 
