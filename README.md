@@ -1,150 +1,225 @@
-🥗 Food Safety for Better Health
+<h1 align="center">🥗 Food Safety for Better Health</h1>
 
-An end-to-end AI-powered web application that classifies food images, provides nutritional insights, and offers health-based recommendations using Deep Learning.
+<p align="center">
+An AI-powered web application that classifies food images, provides nutritional insights, and gives health recommendations using Deep Learning.
+</p>
 
-🚀 Project Overview
+<hr>
 
-This project focuses on building an intelligent Food Classification and Safety Analysis System using Deep Learning techniques.
+<h2>🚀 Project Overview</h2>
+<p>
+This project is an end-to-end <b>Food Classification and Safety Analysis System</b> built using Deep Learning.
+It classifies food images, provides nutritional values, and generates doctor recommendations.
+</p>
 
-The system is designed to:
+<ul>
+<li>🍽️ Classifies <b>34 food categories</b></li>
+<li>📊 Provides nutritional insights</li>
+<li>🩺 Gives doctor recommendations</li>
+<li>📈 Displays model performance metrics</li>
+<li>🤖 Supports multiple DL models</li>
+</ul>
 
-Classify food images into 34 categories
-Provide nutritional information
-Generate doctor-based recommendations
-Display model performance metrics
-Support multiple deep learning models
-🧠 Models Used
-Custom CNN
-VGG16
-ResNet50
+<hr>
 
-All models were trained using Google Colab and integrated into a Flask-based web application.
+<h2>🧠 Models Used</h2>
+<ul>
+<li>Custom CNN</li>
+<li>VGG16</li>
+<li>ResNet50</li>
+</ul>
 
-📊 Dataset Details
-34 Food Classes
-Training: 200 images per class
-Validation: 50 images per class
-Testing: 10 images per class
-🍽️ Classes Include:
+<hr>
 
-apple_pie, Baked Potato, burger, butter_naan, chai, chapati, cheesecake, chicken_curry, chole_bhature, Crispy Chicken, dal_makhani, dhokla, Donut, fried_rice, Fries, Hot Dog, ice_cream, idli, jalebi, kaathi_rolls, kadai_paneer, kulfi, masala_dosa, momos, omelette, paani_puri, pakode, pav_bhaji, pizza, samosa, Sandwich, sushi, Taco, Taquito
+<h2>📊 Dataset Details</h2>
+<ul>
+<li><b>34 Classes</b></li>
+<li>Training: 200 images/class</li>
+<li>Validation: 50 images/class</li>
+<li>Testing: 10 images/class</li>
+</ul>
 
-🧾 Nutritional Information
+<p><b>Sample Classes:</b> apple_pie, burger, idli, pizza, samosa, sushi, momos, pav_bhaji...</p>
 
-Each food item includes:
+<hr>
 
-Calories (kcal)
-Total Fat
-Saturated Fat
-Trans Fat
-Cholesterol
-Sodium
-Carbohydrates
-Dietary Fiber
-Sugars
-Protein
-Vitamin C
-Calcium
-Iron
-Potassium
+<h2>🧾 Nutritional Information</h2>
+<p>Each food item includes:</p>
+<ul>
+<li>Calories, Fat, Cholesterol</li>
+<li>Carbohydrates, Fiber, Sugars</li>
+<li>Protein</li>
+<li>Vitamins & Minerals</li>
+</ul>
 
-Stored in a JSON file and retrieved dynamically using Redis.
+<p>Stored in JSON and retrieved using <b>Redis</b>.</p>
 
-⚙️ Tech Stack
-🔹 Backend
-Python
-Flask
-TensorFlow / Keras
-NumPy
-🔹 Frontend
-HTML
-CSS (Bootstrap)
-JavaScript
-🔹 Database / Storage
-Redis
-Model metrics
-Nutritional data
-🔁 System Workflow
-User uploads a food image
-Selects model (CNN / VGG16 / ResNet50)
-Image preprocessing is performed
-Model predicts the food class
-System:
-Fetches nutrients from Redis
-Retrieves model performance metrics
-Generates doctor recommendation
-Results are displayed on the web interface
-📈 Model Evaluation Metrics
+<hr>
 
-The system tracks and displays:
+<h2>⚙️ Tech Stack</h2>
 
-Accuracy
-Precision
-Recall
-F1-Score
-Confusion Matrix
+<h3>Backend</h3>
+<ul>
+<li>Python</li>
+<li>Flask</li>
+<li>TensorFlow / Keras</li>
+<li>NumPy</li>
+</ul>
 
-All metrics are stored and fetched dynamically using Redis.
+<h3>Frontend</h3>
+<ul>
+<li>HTML</li>
+<li>CSS (Bootstrap)</li>
+<li>JavaScript</li>
+</ul>
 
-🩺 Doctor Recommendation System
-Provides health advice based on predicted food
-Indicates whether food is safe or not safe
-Helps users make informed dietary decisions
-💻 Web Application Features
-Upload food image
-Select model for prediction
-Real-time classification
-Nutritional breakdown
-Doctor recommendation
-Model performance visualization
-📁 Project Structure
+<h3>Database</h3>
+<ul>
+<li>Redis (for metrics & nutrients)</li>
+</ul>
+
+<hr>
+
+<h2>🔁 System Workflow</h2>
+<ol>
+<li>Upload image</li>
+<li>Select model (CNN / VGG16 / ResNet50)</li>
+<li>Image preprocessing</li>
+<li>Prediction</li>
+<li>Fetch nutrients & metrics from Redis</li>
+<li>Display results</li>
+</ol>
+
+<hr>
+
+<h2>📈 Model Evaluation</h2>
+<ul>
+<li>Accuracy</li>
+<li>Precision</li>
+<li>Recall</li>
+<li>F1-Score</li>
+<li>Confusion Matrix</li>
+</ul>
+
+<hr>
+
+<h2>🩺 Doctor Recommendation</h2>
+<p>
+The system provides health advice based on predicted food and indicates whether it is safe or not.
+</p>
+
+<hr>
+
+<h2>💻 Features</h2>
+<ul>
+<li>Image upload</li>
+<li>Multi-model selection</li>
+<li>Real-time prediction</li>
+<li>Nutritional breakdown</li>
+<li>Doctor advice</li>
+<li>Performance metrics display</li>
+</ul>
+
+<hr>
+
+<h2>📁 Project Structure</h2>
+
+<pre>
 Food-Safety-App/
 │
-├── h5_models/                # Trained Deep Learning Models
+├── h5_models/
 │   ├── CNN_model.h5
 │   ├── Resnet_model.h5
 │   └── vgg16_model.h5
 │
-├── models/                   # Model Evaluation Metrics
+├── models/
 │   ├── CNN_matrix.json
 │   ├── resnet_matrix.json
 │   └── vgg16_matrix.json
 │
-├── static/                   # Static files
-│   ├── uploads/              # Uploaded images
-│   └── img.jpg               # Profile image
+├── static/
+│   ├── uploads/
+│   └── sathwika.jpg
 │
-├── templates/                # Frontend HTML
+├── templates/
 │   └── index.html
 │
-├── app.py                    # Main Flask backend
-├── cnn.py                    # CNN logic / training
-├── food.json.py              # JSON handling
-├── food_data.json            # Nutritional dataset
-├── main.py                   # Entry script
+├── app.py
+├── cnn.py
+├── food.json.py
+├── food_data.json
+├── main.py
 │
-├── .venv/                    # Virtual environment
+├── .venv/
 └── README.md
+</pre>
 
-⚡ Redis is used to store model metrics and food nutritional data for fast retrieval.
+<p><i>Redis is used to store model metrics and nutritional data for faster access.</i></p>
 
-📌 Sample Output
+<hr>
+
+<h2>📌 Sample Output</h2>
+
+<pre>
 Predicted Food : Donut  
 Confidence     : 92%  
 Calories       : 270 kcal  
 Protein        : 4g  
 Health Status  : Doctor Recommended  
+</pre>
 
-💡 The system not only predicts the food item but also provides nutritional insights and health recommendations.
+<hr>
 
+<h2>▶️ How to Run</h2>
 
-🏁 Conclusion
+<pre>
+git clone https://github.com/your-username/food-safety-app.git
+cd food-safety-app
+pip install -r requirements.txt
+python app.py
+</pre>
 
-This project demonstrates the practical application of Deep Learning in solving real-world problems related to food and health. By combining image classification, nutritional analysis, and intelligent recommendations, the system provides a complete AI-driven solution for smarter dietary decisions.
+<p>Make sure Redis is running at: <b>localhost:6379</b></p>
 
-It highlights the integration of multiple models, efficient data handling using Redis, and deployment through a user-friendly web interface. Overall, this project strengthened my skills in Machine Learning, Deep Learning, model deployment, and full-stack development.
+<hr>
 
-👩‍💻 Author
-Pallapu Sathwika 
-AI & ML Intern
-- 🔗 LinkedIn: www.linkedin.com/in/sathwika-pallapu-a32bba355  
+<h2>🌟 Key Highlights</h2>
+<ul>
+<li>Multi-model comparison</li>
+<li>Real-time predictions</li>
+<li>Redis integration</li>
+<li>AI + Nutrition + Health</li>
+</ul>
+
+<hr>
+
+<h2>🚀 Future Improvements</h2>
+<ul>
+<li>Increase dataset size</li>
+<li>Add more food categories</li>
+<li>Cloud deployment</li>
+<li>Better UI/UX</li>
+</ul>
+
+<hr>
+
+<h2>🏁 Conclusion</h2>
+<p>
+This project demonstrates the real-world application of Deep Learning in food and health analysis.
+By combining image classification, nutrition tracking, and intelligent recommendations,
+it provides a complete AI-driven solution for better dietary decisions.
+</p>
+
+<hr>
+
+<h2>👩‍💻 Author</h2>
+
+<p><b>Yamani Swathi</b><br>
+AI / ML Enthusiast | Computer Vision</p>
+
+<p><b>Skills:</b> Python • Deep Learning • CNN • Transfer Learning • Flask • Redis</p>
+
+<p>
+🔗 LinkedIn: https://linkedin.com/in/your-profile <br>
+💻 GitHub: https://github.com/your-username
+</p>
