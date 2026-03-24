@@ -1,4 +1,4 @@
-<h1 align="center">🥗 Food Safety for Better Health</h1>
+<h1 align="left">🥗 Food Safety for Better Health</h1>
 
 <p align="center">
 An AI-powered web application that classifies food images, provides nutritional insights, and gives health recommendations using Deep Learning.
@@ -214,12 +214,10 @@ it provides a complete AI-driven solution for better dietary decisions.
 
 <h2>👩‍💻 Author</h2>
 
-<p><b>Yamani Swathi</b><br>
-AI / ML Enthusiast | Computer Vision</p>
+<p><b>Pallapu SAthwika </b><br>
+AI & ML Intern</p>
 
-<p><b>Skills:</b> Python • Deep Learning • CNN • Transfer Learning • Flask • Redis</p>
 
 <p>
-🔗 LinkedIn: https://linkedin.com/in/your-profile <br>
-💻 GitHub: https://github.com/your-username
+🔗 LinkedIn: www.linkedin.com/in/sathwika-pallapu-a32bba355 <br>
 </p>
